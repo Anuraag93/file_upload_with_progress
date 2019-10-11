@@ -83,13 +83,7 @@ class UploadMultipleImageDemoState extends State<UploadMultipleImageDemo> {
   }
 
   uploadToFirebase() {
-    // if (_multiPick) {
     _paths.forEach((fileName, filePath) => {upload(fileName, filePath)});
-    // } else {
-    //   String fileName = _path.split('/').last;
-    //   String filePath = _path;
-    //   upload(fileName, filePath);
-    // }
   }
 
   upload(fileName, filePath) {
@@ -104,10 +98,6 @@ class UploadMultipleImageDemoState extends State<UploadMultipleImageDemo> {
     setState(() {
       _tasks.add(uploadTask);
     });
-  }
-
-  String _bytesTransferred(StorageTaskSnapshot snapshot) {
-    return '${snapshot.bytesTransferred}/${snapshot.totalByteCount}';
   }
 
   @override
@@ -211,7 +201,10 @@ class UploadTaskListTile extends StatelessWidget {
   }
 
   String _bytesTransferred(StorageTaskSnapshot snapshot) {
-    return '${snapshot.bytesTransferred}/${snapshot.totalByteCount}';
+    final d = snapshot.bytesTransferred / snapshot.totalByteCount;
+    final i = (d * 100).toInt();
+
+    return i.toString();
   }
 
   @override
@@ -224,7 +217,7 @@ class UploadTaskListTile extends StatelessWidget {
         if (asyncSnapshot.hasData) {
           final StorageTaskEvent event = asyncSnapshot.data;
           final StorageTaskSnapshot snapshot = event.snapshot;
-          subtitle = Text('$status: ${_bytesTransferred(snapshot)} bytes sent');
+          subtitle = Text('$status: ${_bytesTransferred(snapshot)} % sent');
         } else {
           subtitle = const Text('Starting...');
         }
