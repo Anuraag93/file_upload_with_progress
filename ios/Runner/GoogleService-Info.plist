@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>215318221171-68slm3m0s476e7cdlotluvl71i7iu84l.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.215318221171-68slm3m0s476e7cdlotluvl71i7iu84l</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAAbvUqIqWh_G9FlI5AGRgcF0Of4Gxg5-I</string>
+	<key>GCM_SENDER_ID</key>
+	<string>215318221171</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.banger.fileUploaderWithProgress</string>
+	<key>PROJECT_ID</key>
+	<string>file-upload-with-progress</string>
+	<key>STORAGE_BUCKET</key>
+	<string>file-upload-with-progress.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:215318221171:ios:7b444e57d778bfa8aef506</string>
+	<key>DATABASE_URL</key>
+	<string>https://file-upload-with-progress.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>file_uploader_with_progress</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+
+	<key>NSCameraUsageDescription</key>
+	<string>Wexplore wants to access your camera to capture your profile picture</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Wexplore wants to access your library to upload your profile pic and trip image</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Wexplore wants to access your library to upload your profile pic and trip image</string>
+
+	<key>NSMicrophoneUsageDescription</key>
+	<string>WeExplore not using this permission we will not access microphone</string>
+	<key>NSContactsUsageDescription</key>
+	<string>WeExplore not using this permission we will not access contacts details</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>WeExplore not using this permission we will not access calender details</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>WeExplore not using this permission we will not access apple music</string>
+	<key>NSMotionUsageDescription</key>
+	<string>WeExplore not using this permission we will not access motion</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>WeExplore not using this permission we will not access speech recognition</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>WeExplore not using this permission we will not access loction access always</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>WeExplore not using this permission we will not access location when in use</string>
+
+
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>
